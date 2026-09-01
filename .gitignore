@@ -1,0 +1,17 @@
+# Environment secrets - NEVER commit
+backend/.env
+.env
+
+# Python
+backend/venv/
+__pycache__/
+*.pyc
+
+# Node / React
+frontend/node_modules/
+frontend/dist/
+
+# Editor/OS junk
+.vscode/
+.DS_Store
+Thumbs.db

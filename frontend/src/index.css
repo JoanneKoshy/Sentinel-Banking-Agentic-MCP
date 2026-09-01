@@ -1,0 +1,39 @@
+:root {
+  --bg: #f5f6f9;
+  --surface: #ffffff;
+  --surface-alt: #eef0f4;
+  --border: #e2e5eb;
+  --text-primary: #12141c;
+  --text-secondary: #6b7280;
+  --accent: #3452e1;
+  --accent-hover: #2c41c4;
+  --success: #1db876;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html, body, #root {
+  height: 100%;
+}
+
+body {
+  margin: 0;
+  background: var(--bg);
+  color: var(--text-primary);
+  font-family: "Inter", -apple-system, BlinkMacSystemFont, sans-serif;
+  -webkit-font-smoothing: antialiased;
+}
+
+button {
+  font-family: inherit;
+}
+
+::-webkit-scrollbar {
+  width: 8px;
+}
+::-webkit-scrollbar-thumb {
+  background: #d1d5db;
+  border-radius: 8px;
+}

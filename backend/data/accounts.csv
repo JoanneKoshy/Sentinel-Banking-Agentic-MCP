@@ -1,0 +1,4 @@
+customer_id,name,account_number,balance,currency,phone_number
+CUST001,John Mathew,XXXX1234,84250.75,INR,9876543210
+CUST002,Sanjay Rao,XXXX5678,1200.00,INR,9876543211
+CUST003,Priya Nair,XXXX9012,502340.10,INR,9876543212

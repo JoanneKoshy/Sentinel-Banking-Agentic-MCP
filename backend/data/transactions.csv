@@ -1,0 +1,12 @@
+﻿customer_id,date,description,amount,type
+CUST001,2026-08-25,UPI-Swiggy,-450.00,debit
+CUST001,2026-08-24,Salary Credit,55000.00,credit
+CUST001,2026-08-22,ATM Withdrawal,-2000.00,debit
+CUST001,2026-08-20,UPI-Amazon,-1299.00,debit
+CUST001,2026-08-18,Electricity Bill,-1800.00,debit
+CUST002,2026-08-26,UPI-Zomato,-320.00,debit
+CUST002,2026-08-23,Salary Credit,32000.00,credit
+CUST002,2026-08-21,Rent Payment,-15000.00,debit
+CUST003,2026-08-27,Mutual Fund SIP,-10000.00,debit
+CUST003,2026-08-25,Dividend Credit,3200.00,credit
+CUST003,2026-08-20,UPI-BigBasket,-1850.00,debit

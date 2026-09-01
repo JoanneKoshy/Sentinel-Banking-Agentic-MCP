@@ -1,0 +1,126 @@
+.login-shell {
+  height: 100vh;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: var(--bg);
+}
+
+.login-card {
+  width: 380px;
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-radius: 14px;
+  padding: 32px;
+  box-shadow: 0 4px 24px rgba(41, 47, 76, 0.08);
+  display: flex;
+  flex-direction: column;
+  gap: 14px;
+}
+
+.login-brand {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin-bottom: 8px;
+}
+
+.login-brand .brand-mark {
+  width: 32px;
+  height: 32px;
+  border-radius: 8px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+  gap: 2px;
+  padding: 4px;
+}
+
+.login-brand .brand-mark span:nth-child(1) { background: var(--green); border-radius: 2px; }
+.login-brand .brand-mark span:nth-child(2) { background: var(--orange); border-radius: 2px; }
+.login-brand .brand-mark span:nth-child(3) { background: var(--pink); border-radius: 2px; }
+.login-brand .brand-mark span:nth-child(4) { background: var(--blue); border-radius: 2px; }
+
+.login-brand .brand-name {
+  font-weight: 700;
+  font-size: 16px;
+  color: var(--text-primary);
+}
+
+.login-card h2 {
+  margin: 0;
+  font-size: 20px;
+  font-weight: 700;
+  color: var(--text-primary);
+}
+
+.login-sub {
+  margin: 0;
+  font-size: 13px;
+  color: var(--text-secondary);
+  line-height: 1.5;
+}
+
+.login-card input {
+  padding: 12px 14px;
+  border: 1px solid var(--border);
+  border-radius: 10px;
+  font-size: 14px;
+  font-family: inherit;
+}
+
+.login-card input:focus {
+  outline: none;
+  border-color: var(--accent);
+}
+
+.login-card button {
+  background: var(--accent);
+  color: white;
+  border: none;
+  padding: 12px;
+  border-radius: 10px;
+  cursor: pointer;
+  font-size: 14px;
+  font-weight: 700;
+  transition: background 0.15s ease;
+}
+
+.login-card button:hover:not(:disabled) {
+  background: var(--accent-hover);
+}
+
+.login-card button:disabled {
+  opacity: 0.6;
+  cursor: not-allowed;
+}
+
+.login-card .link-btn {
+  background: none;
+  color: var(--text-secondary);
+  font-weight: 500;
+  padding: 4px;
+}
+
+.login-card .link-btn:hover:not(:disabled) {
+  background: none;
+  color: var(--accent);
+}
+
+.login-error {
+  font-size: 13px;
+  color: #d81e3f;
+  background: rgba(255, 61, 87, 0.1);
+  padding: 8px 12px;
+  border-radius: 8px;
+}
+
+.demo-otp-banner {
+  font-size: 13px;
+  color: #00915a;
+  background: rgba(0, 200, 117, 0.12);
+  padding: 10px 12px;
+  border-radius: 8px;
+  line-height: 1.5;
+}

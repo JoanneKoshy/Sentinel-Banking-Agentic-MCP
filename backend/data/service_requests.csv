@@ -1,0 +1,6 @@
+﻿request_id,customer_id,request_type,details,status,created_at
+REQEF789B45,CUST001,cheque_book,50 leaves requested,pending,2026-09-01T12:30:26.446442
+REQ3001F2E3,CUST002,address_change,"221B Baker Street, Bangalore",pending,2026-09-01T12:30:26.473135
+REQ38601B4E,CUST001,cheque_book,25 leaves requested,pending,2026-09-01T13:48:35.914676
+REQ4C5FF14C,CUST001,address_change,"42 MG Road, Bangalore",pending,2026-09-01T15:33:43.404304
+REQE1A36F41,CUST001,cheque_book,25 leaves requested,pending,2026-09-01T16:17:14.495182
